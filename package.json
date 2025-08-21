@@ -1,0 +1,24 @@
+{
+  "name": "kapi-advertisement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "pull": "git pull origin master",
+    "push": "git add . && git commit -m 'x' && git push origin master",
+    "release": "git add . && git commit -m 'x' && git push origin master && git push origin master:release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wvOoOvw/kapi-advertisement.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wvOoOvw/kapi-advertisement/issues"
+  },
+  "homepage": "https://github.com/wvOoOvw/kapi-advertisement#readme",
+  "dependencies": {
+    "weui-miniprogram": "^1.5.6"
+  }
+}
